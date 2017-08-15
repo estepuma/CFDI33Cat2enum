@@ -20,4 +20,4 @@ Este Script genera los java enum de algunos catálogos del sat de CFDI 3.3. Los 
 2. Cada enum contiene un método String getValue() que obtiene el valor real.
 3. El script en python se guía con los números de línea del archivo catCFDI.xsd, si se modifica el archivo habrá que actualizar el script
    con los nuevos números de línea.
-
+4. Requiere python 2.7
