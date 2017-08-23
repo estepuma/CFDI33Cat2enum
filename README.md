@@ -14,6 +14,14 @@ Este Script genera los java enum de algunos catálogos del sat de CFDI 3.3. Los 
 - regimen_fiscal
 - impuesto
 
+# Pre-requisitos
+- Bajar el catálogo del SAT http://www.sat.gob.mx/sitio_internet/cfd/catalogos/catCFDI.xsd y copiarlo en la misma ruta que el script.
+- Python 2.7.13
+
+# Ejecución
+- Ejecutar el script: 
+   python transform2java.py
+
 # Notas:
 1. A los catálogos que genera les agrega un prefijo "C" por ejemplo para el catálogo clave unidad, genera un enum CClaveUnidad,
    con valores CC81("C81"), CC25("C25"), ...
